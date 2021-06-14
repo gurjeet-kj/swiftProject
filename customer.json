@@ -1,0 +1,38 @@
+{
+  "customers" : [
+    {
+      "fullAddress" : "Los Angeles, 90020, CA, USA",
+      "customerPassword" : "harvey",
+      "customeName" : "Harvey Spector",
+      "contactNumber" : "1234567890",
+      "accounts" : {
+        "savingsAcc" : {
+          "accountNumber" : "00002",
+          "accountBalance" : 250,
+          "interestRate" : 5,
+          "minBalance" : 100
+        },
+        "fixedDepositAcc" : {
+          "fixedDepositDuration" : 12,
+          "accountBalance" : 1000,
+          "interestRate" : 10,
+          "accountNumber" : "00001"
+        }
+      }
+    },
+    {
+      "fullAddress" : "Ontario, Canada",
+      "customerPassword" : "bill",
+      "customeName" : "Bill gates",
+      "contactNumber" : "999999999",
+      "accounts" : {
+        "savingsAcc" : {
+          "accountNumber" : "00003",
+          "accountBalance" : 1000,
+          "interestRate" : 5,
+          "minBalance" : 100
+        }
+      }
+    }
+  ]
+}
